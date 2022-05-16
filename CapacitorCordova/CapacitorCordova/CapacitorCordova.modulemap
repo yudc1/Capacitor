@@ -1,0 +1,6 @@
+framework module CapacitorCordova {
+  umbrella header "CapacitorCordova.h"
+
+  export *
+  module * { export * }
+}
