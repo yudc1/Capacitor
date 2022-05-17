@@ -3,7 +3,7 @@ package = JSON.parse(File.read(File.join(__dir__, "package.json")))
 Pod::Spec.new do |s|
   s.name         = "CapacitorCordova"
   s.module_name  = 'Cordova'
-  s.version      = package['version']
+  s.version      =  '3.4.1'
   s.summary      = "Capacitor Cordova Compatibility Layer"
   s.homepage     = "https://capacitorjs.com"
   s.license      = 'MIT'
